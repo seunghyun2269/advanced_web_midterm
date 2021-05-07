@@ -1,0 +1,79 @@
+#book_h3{
+    margin-top : 90px;
+    text-align: center;
+    color: rgb(18, 24, 58);
+}
+
+#btn_register{
+    background-color: rgb(18, 24, 58);
+    color: white;
+    font-size: 23px;
+    border-radius: 7px;
+    padding: 10px;
+    border-color: rgb(18, 24, 58);
+}
+
+div.bookDiv{
+    width: 180px;
+    background-color: rgb(95, 139, 175);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+span.bookSpan{
+    color: rgb(18, 24, 58);
+    margin: 5px;
+    font-size: 15px;
+    display: inline-block;
+    width: 90%; 
+    text-align: center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+button.bookBtnDelete{
+    background-color: rgb(22, 28, 63);
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    float: right;
+    padding: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+button.bookBtnEdit{
+    background-color: rgb(22, 28, 63);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 12px;
+    color: rgb(227, 236, 253);
+    float: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#container {
+    height: 90px;
+    position: relative;
+}
+  
+#center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#btn_register{
+    background-color: rgb(18, 24, 58);
+    color: white;
+    font-size: 23px;
+    border-radius: 7px;
+    padding: 10px;
+    border-color: rgb(18, 24, 58);
+}

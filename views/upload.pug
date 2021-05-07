@@ -1,0 +1,27 @@
+extends layout 
+
+block content 
+    main 
+        p#upP 
+            |(예: node.js완전 정복, 명지 대학교, 고급 웹 프로그래밍)
+        
+        div
+            form#form
+                label.upLabel 
+                    span 책 제목
+                    input.upInput(type="text" name="name")
+                br
+                label.upLabel 
+                    span 학교
+                    input.upInput(type="text" name="school")
+                br
+                label.upLabel 
+                    span 과목 명
+                    input.upInput(type="text" name="contents")
+                
+                button#upBtn(type="submit", onclick="location.href = '/share'") 등록
+        p
+
+block script 
+    script(src="https://unpkg.com/axios/dist/axios.min.js")
+    script(src="./frontBook.js")

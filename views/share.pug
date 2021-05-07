@@ -1,0 +1,13 @@
+extends layout 
+
+block content 
+    main 
+        h3#book_h3 공유하고 싶은 전공 서적의 정보를 업로드 하세요!
+
+        div#container
+            div#center
+                button(id="btn_register", type="button", onclick="location.href = '/upload'") GO!
+
+block script 
+    script(src="https://unpkg.com/axios/dist/axios.min.js")
+    script(src="./frontBook.js")

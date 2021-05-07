@@ -1,0 +1,31 @@
+doctype html
+html
+    head
+        title 책 공유 서비스
+        link(rel="stylesheet", href="stylesheets/layout.css")
+        link(rel="stylesheet", href="stylesheets/main.css")
+        link(rel="stylesheet", href="stylesheets/book.css")
+        link(rel="stylesheet", href="stylesheets/upload.css")
+
+        block style 
+    body 
+        header 
+            h1#title BookMate
+            h4#title2 당신의 전공서적을 공유하세요.
+
+            nav#menu
+                ul 
+                    li 
+                        a(class="link", href="/") About Us
+                    li 
+                        a(class="link", href="/share") 공유! GO!
+                    li 
+                        a(class="link", href="/book") 책 리스트
+            p
+            
+        block content 
+
+        footer 
+            h5(class="footer") 2021-1 고급웹프로그래밍 중간 프로젝트 
+            
+        block script

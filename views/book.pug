@@ -1,0 +1,11 @@
+extends layout 
+
+block content 
+    main 
+        h3#book_h3 현재 공유 가능한 책 목록입니다:)
+
+        div(id="list")
+
+block script 
+    script(src="https://unpkg.com/axios/dist/axios.min.js")
+    script(src="./frontBook.js")

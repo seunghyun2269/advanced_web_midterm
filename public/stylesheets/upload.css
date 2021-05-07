@@ -1,0 +1,38 @@
+#form{
+    margin: 50px;
+}
+
+label.upLabel{
+    margin: 10px;
+    display: block;
+}
+
+label.upLabel span{
+    width:150px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+    color: rgb(18, 24, 58);
+    font-size: 17px;
+}
+
+input.upInput{
+    margin: 10px;
+}
+
+#upBtn{
+    margin-right: 120px;
+    float: right;
+    background-color: rgb(18, 24, 58);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#upP{
+    margin-top: 80px;
+    text-align: center;
+    color: rgb(18, 24, 58);
+    font-size: 17px;
+}

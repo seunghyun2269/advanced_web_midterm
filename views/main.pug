@@ -1,0 +1,22 @@
+extends layout 
+
+block content 
+    main 
+        div#pic
+            img(src="img/book_share.png", width="200", alt="bookshare_mark")
+
+        p#aboutus
+            |비싼 전공 서적! 학기를 마치신 후 사용하지 않으시나요?
+            br
+            br
+            |저희 BookMate사이트에서 사용하지 않는 전공 서적을 공유해보세요. 
+            br
+            br
+            |저렴한 가격으로 전공서적을 구매 할 수 있을 뿐만 아니라 버려지는 책의 양을 줄여 환경에도 도움되는 책 공유 서비스입니다.
+            br
+            br
+            |지금 바로 전공서적 공유에 참여해보세요!
+
+block script 
+    script(src="https://unpkg.com/axios/dist/axios.min.js")
+    script(src="./frontBook.js")
